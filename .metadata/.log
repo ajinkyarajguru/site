@@ -214,3 +214,13 @@ org.eclipse.equinox.security.storage.StorageException: No password provided.
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SESSION 2017-05-14 15:39:52.107 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 4 2017-05-14 15:42:39.666
+!MESSAGE Plugin de.loskutov.eclipseskins.extvs, extension org.eclipse.ui.themes: Unknown extension tag found: categoryPresentationBinding
