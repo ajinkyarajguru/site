@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
-gemspec
 
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'kramdown'
-gem 'pygments.rb'
+group :jekyll_plugins do
+    gem 'jekyll-feed'
+    gem 'jekyll-archives'
+    gem 'jekyll-paginate'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-gist'
+    gem 'jekyll-seo-tag'
+ end
